@@ -1,1 +1,1 @@
-# learning-note-by-astrozq
+# learning note of astrozq
