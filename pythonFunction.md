@@ -155,7 +155,11 @@ collections是Python内建的一个集合模块，提供了许多有用的集合
 ## 5.4 h5py
 HDF（Hierarchical Data Format）指一种为存储和处理大容量科学数据设计的文件格式及相应库文件。当前流行的版本是 HDF5。
 
-h5py就是处理HDF5数据的。另外还有PyTables。可以与NumPy联动。
+h5py就是处理HDF5数据的。另外还有PyTables。可以与NumPy联动。 http://www.h5py.org/
+
+## 5.5 rpy2
+使R在python中运行 https://rpy2.readthedocs.io/en/version_2.8.x/
+
 
 # 6.画图工具
 ## 6.1 matplotlib
@@ -163,8 +167,23 @@ h5py就是处理HDF5数据的。另外还有PyTables。可以与NumPy联动。
 ### 6.1.1 matplotlib.use
 选择渲染和GUI工具 https://matplotlib.org/api/matplotlib_configuration_api.html?highlight=use#matplotlib.use
 
-### 6.2.2 mpl_toolkits.basemap
+### 6.1.2 mpl_toolkits.basemap
 地图绘制工具 https://matplotlib.org/basemap/ https://www.cnblogs.com/vamei/archive/2012/09/16/2687954.html
 
+
+## 6.2 seaborn
+统计数据可视化包 http://seaborn.pydata.org/
+
+## 6.3 spherical_geometry
+球面几何 
+
+# 7.天文相关
+## 7.1 astropy
+
+## 7.2 spherical_geometry
+球面几何包，用于处理天空任意区域的球形多边形
+
+好像是pyraf和stsci的东西
+github和astropy这边也有东西，相比之下可能更靠谱一些 https://spacetelescope.github.io/spherical_geometry/spherical_geometry/ https://github.com/spacetelescope/spherical_geometry
 
 
