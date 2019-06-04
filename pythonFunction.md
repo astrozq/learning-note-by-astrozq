@@ -186,4 +186,5 @@ h5py就是处理HDF5数据的。另外还有PyTables。可以与NumPy联动。 h
 好像是pyraf和stsci的东西
 github和astropy这边也有东西，相比之下可能更靠谱一些 https://spacetelescope.github.io/spherical_geometry/spherical_geometry/ https://github.com/spacetelescope/spherical_geometry
 
-
+## 7.3 PyXspec
+X射线光谱分析包Xspec的python版
