@@ -146,6 +146,21 @@ collections是Python内建的一个集合模块，提供了许多有用的集合
 ## 5.1 numpy
 不解释
 
+
+### 5.1.1 numpy.linspace
+numpy.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None)
+在指定的间隔内返回均匀间隔的数字。
+
+### 5.1.2 numpy.rad2deg
+numpy.rad2deg(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature, extobj]) = <ufunc 'rad2deg'>
+
+从弧度转变为角度（2→to，好冷）
+
+扩展：deg2rad —— 从角度转变为弧度
+
+
+
+
 ## 5.2 scipy
 不解释
 
