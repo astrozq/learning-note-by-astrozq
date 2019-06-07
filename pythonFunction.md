@@ -35,6 +35,19 @@ https://www.zhihu.com/question/31843617
 #### 与os
 os模块负责程序与操作系统的交互，提供了访问操作系统底层的接口;sys模块负责程序与python解释器的交互，提供了一系列的函数和变量，用于操控python的运行时环境。
 
+## 1.3 isinstance
+https://www.runoob.com/python/python-func-isinstance.html
+
+isinstance() 函数来判断一个对象是否是一个已知的类型，类似 type()。
+
+isinstance() 与 type() 区别：
+
+type() 不会认为子类是一种父类类型，不考虑继承关系。
+
+isinstance() 会认为子类是一种父类类型，考虑继承关系。
+
+如果要判断两个类型是否相同推荐使用 isinstance()。
+
 # 2.系统相关函数包及文件工具
 
 ## 2.1 os
@@ -203,3 +216,6 @@ github和astropy这边也有东西，相比之下可能更靠谱一些 https://s
 
 ## 7.3 PyXspec
 X射线光谱分析包Xspec的python版
+
+# 8.杂类
+

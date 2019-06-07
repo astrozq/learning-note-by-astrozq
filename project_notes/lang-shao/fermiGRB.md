@@ -1,4 +1,9 @@
-<b><font color=Violet></font><b>
+<b><font color=Violet></font></b>
+
+
+# GBM_catalog_spectralanalysis_lib.py
+
+#Classes for skymap 
 ## class GBM_detector --57
 1. 获取卫星位置的四元数 --69
 2. 获取各探头的四元数(? --78)
@@ -19,8 +24,24 @@
 2. 获取源和探测器的中心点、范围、四元数
 3. 获取地球坐标
 4. 通过地球与费米卫星位置绘制地球遮挡范围
+5. 绘制图像的函数
 
 <b>separation</b> 返回源与各探头之间的夹角 --360
+
+## SOME FUNCTIONS
+
+### def open_fit （485）
+
+<b>(485-495)__fits格式的读取方式问题，以及qsj1-4是什么</b>
+
+### def find_right_list （497）
+
+判断列表的时间是否是该GRB发生前后
+
+met--涉及闰秒问题的时间
+
+### def met2utc_shao
+emmm
 
 # Tips
 
