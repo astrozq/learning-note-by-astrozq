@@ -171,6 +171,21 @@ numpy.rad2deg(x, /, out=None, *, where=True, casting='same_kind', order='K', dty
 
 扩展：deg2rad —— 从角度转变为弧度
 
+### 5.1.3 numpy.zeros
+numpy.zeros(shape, dtype=float, order='C')
+返回一个所有项填充为0的相应类型的数组
+
+eg
+
+    >>> s = (2,2)
+    >>> np.zeros(s)
+    array([[ 0.,  0.],
+       [ 0.,  0.]])
+
+### 5.1.4 numpy.isscalar¶
+numpy.isscalar(num)
+如果是标量类型，返回True
+
 
 
 
